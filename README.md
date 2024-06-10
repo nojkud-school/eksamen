@@ -10,6 +10,6 @@ Konfigurasjon for apache2:
 - sudo zip -r download.zip download
 
 rediger index.html
-"<a href="">Last ned!</a> --> <a href="download.zip">Last ned!</a>"
+skriv inn "download.zip" i href="" på knappen
 
 Også er nettsiden klar.
