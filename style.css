@@ -1,0 +1,74 @@
+/* global */
+body{
+    background-image: url("bolger.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+ul{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+li{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li:hover:not(.active){
+    background-color: rgb(50, 50, 50);
+}
+
+.active{
+    background-color: rgb(50, 180, 50);
+}
+
+/* index */
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    text-align: center;
+}
+
+.knapp{
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    position: relative;
+    background-color: rgb(255, 215, 0);
+    cursor: pointer;
+}
+
+.knapp:hover{
+    background-color: rgb(220, 180, 0);
+}
+
+/* hjelp og lisens */
+.guide{
+    padding: 0;
+    display: flex;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: 80vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.guide-tekst{
+    text-align: center;
+}
